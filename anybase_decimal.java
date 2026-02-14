@@ -5,7 +5,7 @@ class anybase_decimal {
   
 
     public static void main(String[] args) {
-        System.out.println("\033c");
+    System.out.println("\033c");
     Scanner sc = new Scanner(System.in) ;
 
     int n = sc.nextInt();
@@ -13,11 +13,10 @@ class anybase_decimal {
     int dn = getValueInBase(n,b);
     sc.close();
     System.out.println(dn);
-}
-
+  }
     public static int getValueInBase( int n , int b){
         int rv = 0;
-        int p =1;
+        int p = 1;
         while(0<n){
             int dig = n%10;
             n=n/10;
